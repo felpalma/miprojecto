@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.titulo{
+    font-size: 50px;
+    text-align: center;
+    background-color: gray;
+}
+
+.subtitulo{
+    font-size: 20px;
+    text-align: center;
+    background-color: gray;
+}
+
+.texto{
+    font-size: 30px;
+    margin-top: 20px;
+    
+}
+
+.parrafo{
+    font-size: 30px;
+
+}
+
+
+.barra{
+    text-align: center;
+    background-color:  black;
+}
+
+
+.pie{
+    text-align: center;
+    background-color: gray;
+
+}
+
+
+.product{
+    text-align: center;
+
+}
