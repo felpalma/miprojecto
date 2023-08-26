@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header class="barra">
+        <h1 class="titulo">Contacto</h1>
+        <a href="index.html">home</a>
+        <a href="productos.html">productos</a>
+        <a href="ubicacion.html">ubicacion</a>
+        <a href="historia.html">historia</a>
+    </header>
+    <main>
+        <form action="procesar_formulario.php" method="post">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre">
+
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </form>
+    </main>
+    <footer class="pie">
+        <hr>
+        <ul class="redes-sociales">
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Facebook</a></li>
+        </ul>
+    </footer>
+  
+</body>
+</html>
